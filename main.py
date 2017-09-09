@@ -6,9 +6,9 @@ from wordcloud import WordCloud
 
 class WordCloudPlot():
     def __init__(self):
-        self.word_path = "word.txt"
-        self.image_path = "img.jpg"
-        self.result_path = "result.jpg"
+        self.word_path = "file/word.txt"
+        self.image_path = "image/img.jpg"
+        self.result_path = "image/result.jpg"
         self.image_text = ""
 
     def get_words(self):
